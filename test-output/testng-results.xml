@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6615" started-at="2023-01-26T19:23:56Z" finished-at="2023-01-26T19:24:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6615" started-at="2023-01-26T19:23:56Z" finished-at="2023-01-26T19:24:03Z">
+      <class name="test.WellsFargoTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:test.WellsFargoTest@6fe7aac8]" name="loginTest" duration-ms="6579" started-at="2023-01-26T19:23:56Z" finished-at="2023-01-26T19:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- test.WellsFargoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
