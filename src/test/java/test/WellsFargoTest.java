@@ -15,8 +15,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class WellsFargoTest extends BaseTest{
 	
 	@Test	
-	@Parameters({"browser"})
-	public void loginTest(String browser) {
+	
+	public void loginTest() {
+		String browser = System.getProperty("browser");
 		WebDriver driver = getDriver(browser);
 		driver.manage().window().maximize();
 		driver.get("https://www.wellsfargo.com/");
